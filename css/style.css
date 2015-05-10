@@ -1,0 +1,395 @@
+/* LIBRARY */
+
+* { 
+	margin: 0; 
+	padding: 0;
+	font-weight: inherit; 
+  	font-family: inherit; 
+  	font-style: inherit; 
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+
+/* END OF LIBRARY */
+
+/* HEADER */
+.dashboard{
+	font-family: 'Droid Sans', sans-serif;
+}
+.header{
+	color: white;
+	padding-top:20px;
+	padding-bottom: 55px;
+	background: #33afe5 url('../img/background-top.png') center;
+	background-size: cover;
+}
+.navbar-brand{
+	font-size: 51px;
+	color: white;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+	color: white;
+}
+#figure{
+	padding: 0 10px;
+	margin: 0 5px;
+	color: #33afe5;
+	background: url('../img/atom.png') no-repeat center 7px;
+}
+.icon-bar{
+	background: white;
+}
+.navbar-toggle{
+	border:1px solid white;
+}
+.navbar-toggle:hover,
+.navbar-toggle:focus{
+	background: #245b73;
+	
+}
+.navbar-nav a{
+	font-size: 16px; 
+	color: white;
+	margin-left:10px;
+	margin-top: 5px;
+	border:1px solid transparent;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a:focus{
+	background: #245b73;
+	border:1px solid white;
+	border-radius: 3px;
+}
+
+#carousel{
+	padding:240px 0px 70px;
+}
+.carousel .item-descr{
+	font-size: 22px;
+	margin:0 15%;
+}
+.carousel .item-title{
+	font-size: 34px;
+}
+.item{
+	height: 350px;
+}
+
+/* END OF HEADER */
+
+/* LABELS */
+
+.labels{
+	background: #f0f0f0;
+	margin: 0 auto;
+}
+.labels img{
+	margin:27px auto 33px;
+}
+ /* END OF LABELS */
+
+ /* COMPONENTS */
+
+ .logo{
+ 	margin-top:60px;
+ 	margin-bottom: 60px;
+
+ }
+ .logo-size{
+ 	margin-top: 30px;
+ 	height: 110px;
+ }
+ .logo-a{
+ 	margin-top: 30px;
+ 	background: url('../img/logo-a.png') no-repeat center;
+ }
+ .logo-title{
+ 	font-size: 26px;
+ }
+ .logo-descr{
+ 	font-size: 16px;
+ 	color:#999999;
+ }
+ .margin-95{
+ 	margin-top: 95px;
+ }
+ .pluse{
+ 	font-size: 16px;
+ 	color:#cccccc;
+ 	padding-top: 30px;
+ 	padding-bottom: 10px;
+ 	margin-top: 20px;
+ 	
+ }
+ .pluse-title{
+ 	color:#3399cc;
+ }
+ .plus-logo{
+ 	height: 75px;
+ 	background: url('../img/plus-logo.png') no-repeat;
+ }
+ .pluse:hover{
+ 	color: black;
+ 	background-color: #f0f0f0;
+ }
+ .statistics{
+ 	margin-top: 100px;
+ }
+ .statistic{
+ 	color:#cccccc;
+ 	padding-top: 160px;
+ 	border: 2px solid #e3e3e3;
+ 	border-top:none;
+ 	background: #f0f0f0 url('../img/statistic-1.png') no-repeat center 40px;
+ }
+ .statistic-title{
+ 	font-size: 22px;
+ }
+ .statistic-number{
+ 	font-size: 52px;
+ 	color:#00ccff;
+ }
+ .statistic:nth-child(1),
+ .statistic:nth-child(2),
+ .statistic:nth-child(3){
+ 	border-right: none;
+ }
+ .statistic:hover{
+ 	background-color: #f5f5f5;
+ 	color:black;
+ }
+ /* END OF COMPONENTS */
+
+ /* GALLERY */
+
+.gallery{
+	background: #f0f0f0;
+	padding-bottom: 125px;
+}
+ .logo-b{
+ 	background: url('../img/logo-b.png') no-repeat center;
+ }
+.images{
+	margin-top: 50px;
+}
+.images img{
+	margin-top: 20px;
+	opacity: 0.5;
+}
+.images img:hover{
+	opacity: 1;
+	transition:all 1s ease-in-out;
+}
+.gallery-btn li{
+	font-size: 18px;
+	color:#999999;
+	text-transform: uppercase;
+	padding: 20px 24px;
+	margin-top: 65px;
+	margin-left: 10px;
+	border: 1px solid #999999;
+}
+.gallery-btn li:hover{
+	background: #45b4e5;
+	color: white;
+	border: 1px solid #45b4e5;
+}
+/* END OF GALLERY */
+
+/* PRICES */
+
+.logo-c{
+	background: url('../img/logo-c.png') no-repeat center;
+}
+.prices-columns{
+	padding-top: 110px;
+}
+.price{
+	border: 1px solid #cccccc;
+	margin-bottom: 140px;
+}
+.price-name{
+	font-size: 22px;
+	color:red;
+	text-transform: uppercase;
+	padding-top: 40px;
+}
+.price-cost{
+	padding-top: 10px;
+}
+.price-number{
+	font-size: 30px;
+	font-weight: bold;
+}
+.price-super{
+	font-size: 18px;
+	vertical-align: 6px;
+	font-weight: bold;
+}
+.price li{
+	padding-top:16px;
+	padding-bottom: 13px;
+	border-top:1px solid #cccccc;
+}
+.price li:last-child{
+	border-bottom:1px solid #cccccc;
+}
+.price-button{
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 10px 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: white;
+	border: 1px solid black;
+}
+.price-button:hover{
+	background: #2ea8fa;
+}
+
+.popular{
+	background: url('../img/popular.png') no-repeat right top;
+}
+/* END OF PRICES */
+
+/* REVIEWS */
+
+.reviews{
+	background: #2ea8fa;
+	color:white;
+}
+.reviews .logo-descr{
+	color:white;
+}
+.logo-d{
+	background: url('../img/logo-d.png') no-repeat center;
+}
+.reviews-columns{
+	margin-top: 70px;
+}
+.review{
+	color:black;
+	padding: 20px 10px 10px 0px;
+	background: white;
+	margin-top:10px;
+	margin-left: 18px;
+	margin-bottom: 185px;
+	border-radius: 4px;
+}
+.review-descr{
+	padding:20px 0px;
+}
+.author{
+	line-height: 10px;
+
+}
+.author-name{
+	font-size: 16px;
+	color:#2ea8fa;
+	padding-top: 20px;
+}
+.author-home{
+	font-size: 13px;
+	color:#c2c5c5;
+}
+.author img{
+	width: 60px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.tag{
+	color:#2ea8fa;
+}
+
+/* END OF REVIEWS */
+
+/* ACCOUNT */
+
+.account{
+	background: black;
+}
+.account-text{
+	font-size: 30px;
+	color:white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.account-button{
+	font-size: 16px;
+	color:black;
+	padding: 20px 25px 15px;
+	margin-top: 30px;
+	vertical-align: top;
+	background: #2ea8fa;
+	border: none;
+	border-radius: 5px;
+}
+
+/* END OF ACC */
+
+/* CONTACTS */
+
+.logo-e{
+	background: url('../img/logo-e.png') no-repeat center;
+}
+form{
+	margin-top: 140px;
+}
+input[type="text"],
+input[type="email"]{
+	padding: 20px 0px 20px 10px;
+}
+input[type="submit"]{
+	font-size: 18px;
+	color: white;
+	background: #2ea8fa;
+	padding: 20px 5px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 4px;
+}
+.adress{
+	margin-top: 110px;
+	margin-bottom: 140px;
+}
+.adress-text{
+	font-size: 18px;
+	line-height: 45px;
+	margin-top: 40px;
+}
+.adress a{
+	display: block;
+	width: 35px;
+	height: 50px;
+}
+.adress li{
+	margin:0 5px;
+}
+.adress .social-f{
+	background: url('../img/social.png') -7px no-repeat;
+}
+.adress .social-tw{
+	background: url('../img/social.png') no-repeat -52px 0px;
+}
+.adress .social-p{
+	background: url('../img/social.png') no-repeat -99px 0px;
+}
+.adress .social-w{
+	background: url('../img/social.png') no-repeat -146px 0px;
+}
+.adress li:hover{
+	transform:scale(0.8);
+	transition:all 0.6s ease-in-out;
+}
