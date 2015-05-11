@@ -30,8 +30,9 @@ a{
 	color: white;
 	padding-top:20px;
 	padding-bottom: 55px;
-	background: #33afe5 url('../img/background-top.jpg') center;
+	background:#33afe5 url('../img/background-top.jpg') center;
 	background-size: cover;
+	background-blend-mode: multiply;
 }
 .navbar-brand{
 	font-size: 51px;
@@ -315,6 +316,7 @@ a{
 }
 
 /* END OF REVIEWS */
+
 /* ACCOUNT */
 
 .account{
