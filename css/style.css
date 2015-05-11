@@ -130,23 +130,28 @@ a{
  	padding-top: 30px;
  	padding-bottom: 10px;
  	margin-top: 20px;
- 	
  }
  .pluse-title{
  	color:#3399cc;
  }
  .plus-logo{
- 	height: 75px;
- 	background: url('../img/plus-logo.png') no-repeat;
+ 	height: 55px;
+ 	background: url('../img/plus-logo.png') center top no-repeat;
+
  }
  .pluse:hover{
  	color: black;
  	background-color: #f0f0f0;
  }
+ /* END OF COMPONENTS */
+
+ /* GALLERY */
+
  .statistics{
- 	margin-top: 100px;
+ 	margin:0 10px;
  }
  .statistic{
+ 	margin: 0 -10px;
  	color:#cccccc;
  	padding-top: 160px;
  	border: 2px solid #e3e3e3;
@@ -169,11 +174,8 @@ a{
  	background-color: #f5f5f5;
  	color:black;
  }
- /* END OF COMPONENTS */
-
- /* GALLERY */
-
 .gallery{
+	margin-top: 100px;
 	background: #f0f0f0;
 	padding-bottom: 125px;
 }
@@ -268,6 +270,7 @@ a{
 .reviews{
 	background: #2ea8fa;
 	color:white;
+	padding-bottom: 185px;
 }
 .reviews .logo-descr{
 	color:white;
@@ -280,19 +283,17 @@ a{
 }
 .review{
 	color:black;
-	padding: 20px 10px 10px 0px;
+	padding:45px 30px 20px 40px;
 	background: white;
 	margin-top:10px;
-	margin-left: 18px;
-	margin-bottom: 185px;
 	border-radius: 4px;
 }
 .review-descr{
-	padding:20px 0px;
+	padding:;
 }
 .author{
 	line-height: 10px;
-
+	margin-left: -25px;
 }
 .author-name{
 	font-size: 16px;
@@ -307,7 +308,7 @@ a{
 	width: 60px;
 	float:left;
 	margin-right: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 .tag{
 	color:#2ea8fa;
@@ -319,12 +320,13 @@ a{
 
 .account{
 	background: black;
+	padding-bottom: 40px;
 }
 .account-text{
 	font-size: 30px;
 	color:white;
 	margin-top: 40px;
-	margin-bottom: 40px;
+
 }
 .account-button{
 	font-size: 16px;
@@ -390,6 +392,7 @@ input[type="submit"]{
 	background: url('../img/social.png') no-repeat -146px 0px;
 }
 .adress li:hover{
-	transform:scale(0.8);
-	transition:all 0.6s ease-in-out;
+	transition:all 1s ease-in-out;
+	background-color:#245b73;
+	background-blend-mode: luminosity;
 }
