@@ -369,7 +369,8 @@ form{
 }
 input[type="text"],
 input[type="email"]{
-	padding: 20px 0px 20px 10px;
+	height: 42px;
+	padding-left: 13px;
 }
 input[type="submit"]{
 	font-size: 18px;
